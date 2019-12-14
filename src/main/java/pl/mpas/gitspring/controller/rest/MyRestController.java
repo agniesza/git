@@ -10,4 +10,8 @@ public class MyRestController {
     return "aga";
 }
 
+@GetMapping("/age")
+    int getAge(){
+    return 22;
+}
 }
