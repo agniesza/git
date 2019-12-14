@@ -28,7 +28,7 @@ private static final Logger log= LoggerFactory.getLogger(StreamExample.class);
                 //zbierz to do listy
         colors.stream()
                 .filter(s -> {
-                    log.info("testing object[{}]", s);
+                    log.info("testing object[{}] passed? [{}]", s, s.length() >= 4);
                     return s.length() >= 4 ;})
                 .map(s -> {
                     log.info("mapping object [{}]", s);
