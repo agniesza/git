@@ -1,4 +1,4 @@
-package pl.mpas.gitspring.controllers;
+package pl.mpas.gitspring.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
