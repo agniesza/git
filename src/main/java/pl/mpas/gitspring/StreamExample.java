@@ -33,8 +33,8 @@ private static final Logger log= LoggerFactory.getLogger(StreamExample.class);
                 .map(s -> {
                     log.info("mapping object [{}]", s);
                return s.length();})
-         ;//      .collect(Collectors.toList())
-            //    .forEach(integer -> System.out.println("number: "+integer));
+               .collect(Collectors.toList()) //
+          ;  //    .forEach(integer -> System.out.println("number: "+integer));
 
         }
     }
