@@ -36,7 +36,6 @@ private static final Logger log= LoggerFactory.getLogger(StreamExample.class);
                return s.length();})
                .collect(Collectors.toList()) //
              .forEach(integer -> System.out.println("number: ["+integer+"]"));
-
         }
     }
 
